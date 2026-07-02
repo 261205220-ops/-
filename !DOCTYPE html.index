@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>画像</title>
+</head>
+<body>
+
+<img src="./bg0.png" alt="背景"><br>
+
+<div style="position: absolute; left: 20px; top: 20px; background: #fef3c7; padding: 6px;">
+  ぽかぽか陽気の穏やかな朝<br>
+  花畑には、蝶々がのびのび飛んでいます
+</div>
+
+<div style="position: relative; width: 30px; height: 20px;">
+  <img src="./butterfly.gif" style="position: absolute; left: 40px; top: -200px;">
+</div>
+
+<div style="position: relative; width: 30px; height: 20px;">
+  <img src="./butterfly.gif" style="position: absolute; left: 500px; top: -180px;">
+</div>
+
+</body>
+</html>
