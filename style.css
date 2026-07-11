@@ -1,0 +1,79 @@
+.butterfly { 
+ position: absolute;
+ width: 80px; 
+
+transition: left 0.5s linear, top 0.5s linear;
+}
+
+.foo {
+position: absolute;
+ width: 30px;
+ 
+ transition: left 0.5s linear, top 0.5s linear;
+}
+
+.img0 {
+position: absolute;
+
+}
+
+.img1 {
+position: absolute;
+pointer-events: none;
+
+}
+
+
+#f0 {
+ left:700px;
+ top:260px;
+}
+
+#f1 {
+ left:400px;
+ top:260px;
+}
+
+#f2 {
+ left:500px;
+ top:260px;
+}
+
+#f3 {
+ left:600px;
+ top:260px;
+}
+#f4 {
+ left:825px;
+ top:325px;
+}
+
+
+#bt0 {
+ left:200px;
+ top:200px;
+}
+
+#bt1 {
+ left:300px;
+ top:400px;
+}
+
+#bt2 {
+ left:650px;
+ top:350px;
+}
+
+#message{
+position:absolute;
+pointer-events: none;
+left: 20px;
+top: 30px;
+width: 500px;
+height: 100px;
+background-color: RGB (255, 255, 255, 0. 5);
+color: red;
+font-size: 30px;
+padding: 15px;
+z-index: 1;
+}
