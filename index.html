@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8">
-  <title>画像</title>
+ <meta charset="utf-8">
+ <title>画像</title>
+ <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<img src="./bg0.png" alt="背景"><br>
+<img  class="img0" src="./bg0.png" alt="花畑">
 
-<div style="position: absolute; left: 20px; top: 20px; background: #fef3c7; padding: 6px;">
-  ぽかぽか陽気の穏やかな朝<br>
-  花畑には、蝶々がのびのび飛んでいます
-</div>
+<img id="f0" class="foo" src="foo.gif">
+<img id="f1" class="foo" src="foo.gif">
+<img id="f2" class="foo" src="foo.gif">
+<img id="f3" class="foo" src="foo.gif">
+<img id="f4" class="foo" src="foo.gif">
 
-<div style="position: relative; width: 30px; height: 20px;">
-  <img src="./butterfly.gif" style="position: absolute; left: 40px; top: -200px;">
-</div>
 
-<div style="position: relative; width: 30px; height: 20px;">
-  <img src="./butterfly.gif" style="position: absolute; left: 500px; top: -180px;">
-</div>
+<img  class="img1" src="./bg1.png" alt="花畑">
+
+<img id="bt0" class="butterfly" src="butterfly.gif">
+<img id="bt1" class="butterfly" src="butterfly.gif">
+<img id="bt2" class="butterfly" src="butterfly.gif">
+
+<div id="message">花畑にちょうちょがいます</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
